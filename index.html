@@ -2,11 +2,782 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    Hello world!
+    <nav class="navbar navbar-expand-xl">
+      <div class="top_navbar">
+        <div class="weather">
+          <a href="#"
+            ><i class="fas fa-sun"></i> 32° Querétaro, MX
+            <span class="right_arrow">›</span></a
+          >
+        </div>
+        <div class="date">
+          Tue, Apr 07, 2020
+        </div>
+
+        <div class="logo">
+          <a href="#"><img src="images/Newsweek_Logo.svg.png" alt="" /></a>
+        </div>
+
+        <div class="signin_container">
+          <div class="sigin">
+            <a href="#">SIGN IN</a>
+          </div>
+          <div class="subscribe">
+            <a href="#">SUBSCRIBE <span class="right_arrow">›</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom_navbar">
+        <div class="bottom_navbar_link"><a href="#">U.S.</a></div>
+        <div class="bottom_navbar_link"><a href="#">World</a></div>
+        <div class="bottom_navbar_link"><a href="#">Business</a></div>
+        <div class="bottom_navbar_link"><a href="#">Tech & Science</a></div>
+        <div class="bottom_navbar_link"><a href="#">Culture</a></div>
+        <div class="bottom_navbar_link"><a href="#">Newsgeek</a></div>
+        <div class="bottom_navbar_link"><a href="#">Sports</a></div>
+        <div class="bottom_navbar_link"><a href="#">Health</a></div>
+        <div class="bottom_navbar_link"><a href="#">The Debate</a></div>
+        <div class="bottom_navbar_link"><a href="#">Vantage</a></div>
+        <div class="bottom_navbar_link extreme"><a href="#">Weather</a></div>
+        <div class="bottom_bar_search">
+          <input type="text" placeholder="Search" /><i
+            class="fas fa-search"
+          ></i>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main container-fluid">
+      <div class="main_articles_grid row">
+        <div class="stories col4">
+          <div class="stories_row row">
+            <div class="article_left_col col">
+              <div class="social_title">FEATURED STORIES</div>
+              <article class="article_left">
+                <img
+                  src="https://d.newsweek.com/en/full/1579695/dominic-raab.jpg?w=397&h=265&q=90&f=ab8ebdd98bf8144162c22f5eb61a216e"
+                />
+                <div class="title">
+                  U.K. Leader Boris Johnson in Intensive Care As Dominic Raab
+                  Takes Charge
+                </div>
+                <div class="paragraph">
+                  Raab is the government minister designated to deputize for the
+                  prime minister when he is unable to fulfill duties.
+                </div>
+              </article>
+
+              <article class="article_left">
+                <img
+                  src="https://d.newsweek.com/en/full/1579695/dominic-raab.jpg?w=397&h=265&q=90&f=ab8ebdd98bf8144162c22f5eb61a216e"
+                />
+                <div class="title">
+                  U.K. Leader Boris Johnson in Intensive Care As Dominic Raab
+                  Takes Charge
+                </div>
+                <div class="paragraph">
+                  Raab is the government minister designated to deputize for the
+                  prime minister when he is unable to fulfill duties.
+                </div>
+              </article>
+
+              <article class="article_left">
+                <img
+                  src="https://d.newsweek.com/en/full/1579695/dominic-raab.jpg?w=397&h=265&q=90&f=ab8ebdd98bf8144162c22f5eb61a216e"
+                />
+                <div class="title">
+                  U.K. Leader Boris Johnson in Intensive Care As Dominic Raab
+                  Takes Charge
+                </div>
+                <div class="paragraph">
+                  Raab is the government minister designated to deputize for the
+                  prime minister when he is unable to fulfill duties.
+                </div>
+              </article>
+
+              <article class="article_left">
+                <img
+                  src="https://d.newsweek.com/en/full/1579695/dominic-raab.jpg?w=397&h=265&q=90&f=ab8ebdd98bf8144162c22f5eb61a216e"
+                />
+                <div class="title">
+                  U.K. Leader Boris Johnson in Intensive Care As Dominic Raab
+                  Takes Charge
+                </div>
+                <div class="paragraph">
+                  Raab is the government minister designated to deputize for the
+                  prime minister when he is unable to fulfill duties.
+                </div>
+              </article>
+            </div>
+
+            <div class="article_right_col col">
+              <div class="social_title">TOP STORY</div>
+              <article class="top_story flex-sm">
+                <div class="image">
+                  <a href="#"
+                    ><img
+                      src="https://d.newsweek.com/en/full/1579588/anthony-fauci-donald-trump-coronavirus-hydroxychloroquine-covid-19.jpg?w=591&h=364&f=77648c8a117d39d60bbe6783cb90278a"
+                  /></a>
+                </div>
+                <div class="title">
+                  <a href="#"
+                    ><h2>
+                      Journal Says Hydroxychloroquine Study 'Did Not Meet
+                      Expected Standards'
+                    </h2></a
+                  >
+                </div>
+                <div class="paragraph">
+                  The criticism may heighten tensions between Trump, who has
+                  touted the drug, and Dr. Fauci and other experts, but is
+                  unlikely to affect coronavirus treatment in the short term.
+                </div>
+              </article>
+
+              <div class="social_news_wrapper flex-sm">
+                <div class="social_title">HEROES OF THE PANDEMIC</div>
+                <div class="social_wrapper flex-sm">
+                  <div class="heroes-item">
+                    <div class="image">
+                      <a href="#"
+                        ><img
+                          src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&h=397&f=f7a624e81aa902878bb39d5fe83e971f"
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#" class="title"
+                        >Restauranteur Delivers Oranges to Hospital Workers Amid
+                        Coronavirus Crisis</a
+                      >
+                    </div>
+                    <div class="paragraph">
+                      "We all have to help each other," Matthew Fermin, owner of
+                      East Harlem restaurant Santiago's Beer Garden, told
+                      Newsweek.
+                    </div>
+                  </div>
+
+                  <div class="heroes-item">
+                    <div class="image">
+                      <a href="#"
+                        ><img
+                          src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&h=397&f=f7a624e81aa902878bb39d5fe83e971f"
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#" class="title"
+                        >Restauranteur Delivers Oranges to Hospital Workers Amid
+                        Coronavirus Crisis</a
+                      >
+                    </div>
+                    <div class="paragraph">
+                      "We all have to help each other," Matthew Fermin, owner of
+                      East Harlem restaurant Santiago's Beer Garden, told
+                      Newsweek.
+                    </div>
+                  </div>
+
+                  <div class="heroes-item">
+                    <div class="image">
+                      <a href="#"
+                        ><img
+                          src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&h=397&f=f7a624e81aa902878bb39d5fe83e971f"
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#" class="title"
+                        >Restauranteur Delivers Oranges to Hospital Workers Amid
+                        Coronavirus Crisis</a
+                      >
+                    </div>
+                    <div class="paragraph">
+                      "We all have to help each other," Matthew Fermin, owner of
+                      East Harlem restaurant Santiago's Beer Garden, told
+                      Newsweek.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="social_title">CULTURE & TRAVEL</div>
+
+                <div class="social_wrapper fex-sm">
+                  <div class="heroes-item">
+                    <div class="image">
+                      <a href="#"
+                        ><img
+                          src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&h=397&f=f7a624e81aa902878bb39d5fe83e971f"
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#" class="title"
+                        >Restauranteur Delivers Oranges to Hospital Workers Amid
+                        Coronavirus Crisis</a
+                      >
+                    </div>
+                    <div class="paragraph">
+                      "We all have to help each other," Matthew Fermin, owner of
+                      East Harlem restaurant Santiago's Beer Garden, told
+                      Newsweek.
+                    </div>
+                  </div>
+
+                  <div class="heroes-item">
+                    <div class="image">
+                      <a href="#"
+                        ><img
+                          src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&h=397&f=f7a624e81aa902878bb39d5fe83e971f"
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#" class="title"
+                        >Restauranteur Delivers Oranges to Hospital Workers Amid
+                        Coronavirus Crisis</a
+                      >
+                    </div>
+                    <div class="paragraph">
+                      "We all have to help each other," Matthew Fermin, owner of
+                      East Harlem restaurant Santiago's Beer Garden, told
+                      Newsweek.
+                    </div>
+                  </div>
+
+                  <div class="heroes-item">
+                    <div class="image">
+                      <a href="#"
+                        ><img
+                          src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&h=397&f=f7a624e81aa902878bb39d5fe83e971f"
+                      /></a>
+                    </div>
+                    <div class="title">
+                      <a href="#" class="title"
+                        >Restauranteur Delivers Oranges to Hospital Workers Amid
+                        Coronavirus Crisis</a
+                      >
+                    </div>
+                    <div class="paragraph">
+                      "We all have to help each other," Matthew Fermin, owner of
+                      East Harlem restaurant Santiago's Beer Garden, told
+                      Newsweek.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="more_stories">
+                <div class="social_title">MORE STORIES</div>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+
+                <article class="story">
+                  <div class="image_small">
+                    <img
+                      src="https://d.newsweek.com/en/full/1579612/coronavirus-covid19-mask-mexico-getty.jpg?w=95&h=95&f=790a3c5c3a840f8cf35d9bc4cc6d00dd"
+                      alt="a"
+                    />
+                  </div>
+                  <div class="title">
+                    <h4>
+                      Ex-Fed Chair Thinks Thursday's Jobless Claims Could Top
+                      6.6 Million Record
+                    </h4>
+                  </div>
+                  <div class="paragraph">
+                    The former chair of the Federal Reserve made the suggestion
+                    during a conference call with House Democrats on how the
+                    coronavirus pandemic is hurting the economy.
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="opinion col3">
+          <div class="social_title">OPINIOIN</div>
+          <div class="opinion">
+            <div class="item flex-sm">
+              <div class="image_headshot">
+                <img
+                  src="https://d.newsweek.com/en/full/1555355/jonathan-gruber.png?w=63&h=63&f=edea8eed408942e871fe5f5593fa530b"
+                  alt="a"
+                />
+              </div>
+
+              <div class="title">
+                <a href="#"
+                  >Telehealth, Not the ER, Must Be the Front Line in the War on
+                  Coronavirus</a
+                >
+              </div>
+              <div class="author">
+                BY JONATHAN GRUBER
+              </div>
+            </div>
+
+            <div class="item flex-sm">
+              <div class="image_headshot">
+                <img
+                  src="https://d.newsweek.com/en/full/1555355/jonathan-gruber.png?w=63&h=63&f=edea8eed408942e871fe5f5593fa530b"
+                  alt="a"
+                />
+              </div>
+
+              <div class="title">
+                <a href="#"
+                  >Telehealth, Not the ER, Must Be the Front Line in the War on
+                  Coronavirus</a
+                >
+              </div>
+              <div class="author">
+                BY JONATHAN GRUBER
+              </div>
+            </div>
+
+            <div class="item flex-sm">
+              <div class="image_headshot">
+                <img
+                  src="https://d.newsweek.com/en/full/1555355/jonathan-gruber.png?w=63&h=63&f=edea8eed408942e871fe5f5593fa530b"
+                  alt="a"
+                />
+              </div>
+
+              <div class="title">
+                <a href="#"
+                  >Telehealth, Not the ER, Must Be the Front Line in the War on
+                  Coronavirus</a
+                >
+              </div>
+              <div class="author">
+                BY JONATHAN GRUBER
+              </div>
+            </div>
+
+            <div class="item flex-sm">
+              <div class="image_headshot">
+                <img
+                  src="https://d.newsweek.com/en/full/1555355/jonathan-gruber.png?w=63&h=63&f=edea8eed408942e871fe5f5593fa530b"
+                  alt="a"
+                />
+              </div>
+
+              <div class="title">
+                <a href="#"
+                  >Telehealth, Not the ER, Must Be the Front Line in the War on
+                  Coronavirus</a
+                >
+              </div>
+              <div class="author">
+                BY JONATHAN GRUBER
+              </div>
+            </div>
+          </div>
+
+          <div class="social_title">THE DEBATE</div>
+
+          <div class="upper">
+            <div class="the_debate_article flex-sm">
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1575781/joe-biden.jpg?w=95&h=95&f=326727fa24be15336b6173ba3187d344"
+                    alt="a"
+                /></a>
+              </div>
+              <div class="title">
+                <a href="#"
+                  >Biden's Running Mate Needs to Win Him an Entire State, Not
+                  Just a Constituency</a
+                >
+              </div>
+            </div>
+
+            <div class="author">BY <a href="#">PETER ROFF</a></div>
+
+            <div class="image_headshot">
+              <img
+                src="https://d.newsweek.com/en/full/1555355/jonathan-gruber.png?w=63&h=63&f=edea8eed408942e871fe5f5593fa530b"
+                alt="a"
+              />
+            </div>
+
+            <div class="rounded-circle vs">VS</div>
+          </div>
+
+          <div class="lower">
+            <div class="the_debate_article flex-sm">
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1575781/joe-biden.jpg?w=95&h=95&f=326727fa24be15336b6173ba3187d344"
+                    alt="a"
+                /></a>
+              </div>
+              <div class="title">
+                <a href="#"
+                  >Biden's Running Mate Needs to Win Him an Entire State, Not
+                  Just a Constituency</a
+                >
+              </div>
+            </div>
+
+            <div class="author">
+              BY <a href="#">PETER ROFF</a>
+
+              <div class="image_headshot">
+                <img
+                  src="https://d.newsweek.com/en/full/1555355/jonathan-gruber.png?w=63&h=63&f=edea8eed408942e871fe5f5593fa530b"
+                  alt="a"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="social_title">LATEST NEWS</div>
+
+          <div class="latest_news_flex flex-sm">
+            <div class="item">
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1579800/tracy-morgan.jpg?w=95&h=95&f=9b80f493aa23157e4ba4eee9355d0bab"
+                    alt="a"
+                /></a>
+              </div>
+
+              <div class="title">
+                <a href="#"
+                  >Tracy Morgan Is Spending Quarantine Doing Sexy Coronavirus
+                  Role-Playing</a
+                >
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1579800/tracy-morgan.jpg?w=95&h=95&f=9b80f493aa23157e4ba4eee9355d0bab"
+                    alt="a"
+                /></a>
+              </div>
+
+              <div class="title">
+                <a href="#"
+                  >Tracy Morgan Is Spending Quarantine Doing Sexy Coronavirus
+                  Role-Playing</a
+                >
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1579800/tracy-morgan.jpg?w=95&h=95&f=9b80f493aa23157e4ba4eee9355d0bab"
+                    alt="a"
+                /></a>
+              </div>
+
+              <div class="title">
+                <a href="#"
+                  >Tracy Morgan Is Spending Quarantine Doing Sexy Coronavirus
+                  Role-Playing</a
+                >
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1579800/tracy-morgan.jpg?w=95&h=95&f=9b80f493aa23157e4ba4eee9355d0bab"
+                    alt="a"
+                /></a>
+              </div>
+
+              <div class="title">
+                <a href="#"
+                  >Tracy Morgan Is Spending Quarantine Doing Sexy Coronavirus
+                  Role-Playing</a
+                >
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="https://d.newsweek.com/en/full/1579800/tracy-morgan.jpg?w=95&h=95&f=9b80f493aa23157e4ba4eee9355d0bab"
+                    alt="a"
+                /></a>
+              </div>
+
+              <div class="title">
+                <a href="#"
+                  >Tracy Morgan Is Spending Quarantine Doing Sexy Coronavirus
+                  Role-Playing</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="signup_wrapper">
+            <div class="logo_letter">
+              <img src="images/Newsweek_Logo_letter.png" alt="a" />
+            </div>
+            <div class="newsletter">
+              SIGN UP FOR OUR NEWSLETTER
+            </div>
+            <div class="sign_up_button">
+              <a href="#">SIGN UP <span class="right_arrow">›</span></a>
+            </div>
+            <div class="update">
+              <a href="#">Update your preferences »</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

@@ -1,7 +1,151 @@
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background: #f4f5f6;
+}
+
+.main,
+.bottom_navbar {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top_navbar,
+.top_navbar a {
+  color: #fff;
+}
+
+.navbar {
+  margin: -9px -16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top_navbar {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1310px;
+  height: 95px;
+  display: grid;
+  grid-template-areas: "left-top logo right-top" "left-bottom logo right-bottom";
+  background: #f72210;
+  padding: 20px 10px 15px;
+}
+
+.right_arrow {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.weather {
+  grid-area: left-top;
+  align-self: start;
+  font-weight: bold;
+  font-size: 15px;
+  margin: -10px 0 0 15px;
+}
+
+.date {
+  grid-area: left-bottom;
+  align-self: center;
+  font-size: 16px;
+  margin: -5px 0 0 14px;
+}
+
+.logo {
+  grid-area: logo;
+  justify-self: center;
+}
+
+.logo img {
+  width: 396px;
+}
+
+.signin_container {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  grid-area: right-bottom;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 4px 10px 6px 12px;
+  margin: 0 20px 0 10px;
+  height: 25px;
+}
+
+.subscribe,
+.subscribe a {
+  color: #ff0500;
+  word-spacing: 1rem;
+}
+
+.bottom_navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1310px;
+  height: 56px;
+  padding: 15px 100px 15px 15px;
+  border-bottom: #f4f5f6 solid 2px;
+}
+
+.bottom_navbar_link {
+  font-size: 19px;
+  border-right: solid 1px #d9d9d9;
+  height: fit-content;
+  font-weight: bold;
+  padding-right: 1%;
+}
+
+.bottom_navbar_link a {
+  color: #000;
+  white-space: nowrap;
+}
+
+input {
+  border: none;
+  width: 60px;
+  height: 54px;
+  margin-top: -20px;
+}
+
+.main {
+  width: 100%;
+  max-width: 1310px;
+  padding: 20px 30px 0px;
+}
+
+.social_title {
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.stories {
+  width: 70%;
+}
+
+.article_left_col {
+  width: 50vw;
+}
+
+.article_left_col img {
+  width: 100%;
 }
