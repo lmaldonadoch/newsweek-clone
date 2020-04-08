@@ -12,8 +12,10 @@ body {
 }
 
 .main,
-.bottom_navbar {
+.bottom_navbar,
+.main a {
   background: #fff;
+  color: #000;
 }
 
 a {
@@ -29,7 +31,8 @@ h2,
 .signin_container,
 .social_title,
 .weather,
-.bottom_navbar_link {
+.bottom_navbar_link,
+.opinion {
   font-weight: bold;
 }
 
@@ -37,6 +40,16 @@ h2,
   margin: -9px -16px;
   display: flex;
   flex-direction: column;
+}
+
+.col-big {
+  width: 71.83%;
+  padding: 0 15px;
+}
+
+.col-small {
+  width: 28.17%;
+  padding: 0 15px;
 }
 
 .top_navbar {
@@ -137,7 +150,7 @@ input {
 .main {
   width: 100%;
   max-width: 1310px;
-  padding: 20px 30px 0px 30px;
+  padding: 20px 30px 0px;
 }
 
 .social_title {
@@ -145,10 +158,6 @@ input {
   font-size: 16px;
   color: rgba(3, 3, 3, 0.4);
   margin-bottom: 5px;
-}
-
-.stories {
-  width: 70%;
 }
 
 .stories img {
@@ -160,8 +169,45 @@ input {
   margin-bottom: 15px;
 }
 
-.article_left_col a h2 {
+.article_left_col a h2,
+.top_story a h2 {
   font-size: 24px;
   color: #000;
+  line-height: 25px;
+}
+
+.opinion .item {
+  display: flex;
+  border-bottom: solid 1px #d9d9d9;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.opinion img {
+  margin-right: 10px;
+}
+
+.opinion .title {
+  font-size: 17px;
+  line-height: 21px;
+  margin-bottom: 7px;
+}
+
+.opinion .author {
+  font-size: 14px;
+  color: #555;
+}
+
+.top_story {
+  margin-bottom: 20px;
+}
+
+.top_story a h2 {
+  font-size: 22px;
+}
+
+.heroes_item .title {
+  font-family: "Lora", serif;
+  font-size: 20px;
   line-height: 25px;
 }
