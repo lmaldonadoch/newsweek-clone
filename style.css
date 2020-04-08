@@ -25,6 +25,14 @@ a {
   color: #fff;
 }
 
+h2,
+.signin_container,
+.social_title,
+.weather,
+.bottom_navbar_link {
+  font-weight: bold;
+}
+
 .navbar {
   margin: -9px -16px;
   display: flex;
@@ -50,7 +58,6 @@ a {
 .weather {
   grid-area: left-top;
   align-self: start;
-  font-weight: bold;
   font-size: 15px;
   margin: -10px 0 0 15px;
 }
@@ -76,16 +83,19 @@ a {
   align-items: baseline;
   justify-content: flex-end;
   grid-area: right-bottom;
-  font-weight: bold;
   font-size: 18px;
+}
+
+.signin_container .right_arrow {
+  font-size: 33px;
 }
 
 .subscribe {
   display: flex;
   align-items: center;
   background: #fff;
-  padding: 4px 10px 6px 12px;
-  margin: 0 20px 0 10px;
+  padding: 0px 10px 6px 12px;
+  margin-left: 10px;
   height: 25px;
 }
 
@@ -101,7 +111,7 @@ a {
   width: 100%;
   max-width: 1310px;
   height: 56px;
-  padding: 15px 100px 15px 15px;
+  padding: 15px 90px 15px 15px;
   border-bottom: #f4f5f6 solid 2px;
 }
 
@@ -109,8 +119,7 @@ a {
   font-size: 19px;
   border-right: solid 1px #d9d9d9;
   height: fit-content;
-  font-weight: bold;
-  padding-right: 1%;
+  padding-right: 1.5%;
 }
 
 .bottom_navbar_link a {
@@ -128,24 +137,31 @@ input {
 .main {
   width: 100%;
   max-width: 1310px;
-  padding: 20px 30px 0px;
+  padding: 20px 30px 0px 30px;
 }
 
 .social_title {
   width: 100%;
   font-size: 16px;
-  font-weight: bold;
   color: rgba(3, 3, 3, 0.4);
+  margin-bottom: 5px;
 }
 
 .stories {
   width: 70%;
 }
 
-.article_left_col {
-  width: 50vw;
+.stories img {
+  width: 100%;
+  margin-bottom: 15px;
 }
 
-.article_left_col img {
-  width: 100%;
+.article_left_col article {
+  margin-bottom: 15px;
+}
+
+.article_left_col a h2 {
+  font-size: 24px;
+  color: #000;
+  line-height: 25px;
 }
