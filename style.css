@@ -206,7 +206,7 @@ input {
   font-size: 22px;
 }
 
-.heroes_item .title {
+.social_news_wrapper .social_title .heroes_item .title {
   font-family: "Lora", serif;
   font-size: 20px;
   line-height: 25px;
