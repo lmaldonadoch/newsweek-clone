@@ -20,6 +20,21 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
@@ -28,53 +43,7 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-xl">
-      <div class="top_navbar">
-        <div class="weather">
-          <a href="#"
-            ><i class="fas fa-sun"></i> 32° Querétaro, MX
-            <span class="right_arrow">›</span></a
-          >
-        </div>
-        <div class="date">
-          Tue, Apr 07, 2020
-        </div>
-
-        <div class="logo">
-          <a href="#"><img src="images/Newsweek_Logo.svg.png" alt="" /></a>
-        </div>
-
-        <div class="signin_container">
-          <div class="sigin">
-            <a href="#">SIGN IN</a>
-          </div>
-          <div class="subscribe">
-            <a href="#">SUBSCRIBE <span class="right_arrow">›</span></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="bottom_navbar">
-        <div class="bottom_navbar_link"><a href="#">U.S.</a></div>
-        <div class="bottom_navbar_link"><a href="#">World</a></div>
-        <div class="bottom_navbar_link"><a href="#">Business</a></div>
-        <div class="bottom_navbar_link"><a href="#">Tech & Science</a></div>
-        <div class="bottom_navbar_link"><a href="#">Culture</a></div>
-        <div class="bottom_navbar_link"><a href="#">Newsgeek</a></div>
-        <div class="bottom_navbar_link"><a href="#">Sports</a></div>
-        <div class="bottom_navbar_link"><a href="#">Health</a></div>
-        <div class="bottom_navbar_link"><a href="#">The Debate</a></div>
-        <div class="bottom_navbar_link"><a href="#">Vantage</a></div>
-        <div class="bottom_navbar_link extreme"><a href="#">Weather</a></div>
-        <div class="bottom_bar_search">
-          <input type="text" placeholder="Search" /><i
-            class="fas fa-search"
-          ></i>
-        </div>
-      </div>
-    </nav>
-
-    <main class="main container-fluid">
+    <!-- <main class="main container-fluid">
       <div class="main_articles_grid row">
         <div class="stories col-big">
           <div class="stories_row row">
@@ -243,7 +212,7 @@
 
                 <div class="social_title">CULTURE & TRAVEL</div>
 
-                <div class="social_wrapper fex-sm">
+                <div class="social_wrapper flex-sm">
                   <div class="heroes-item">
                     <div class="image">
                       <a href="#"
@@ -806,6 +775,70 @@
           </div>
         </div>
       </div>
-    </main>
+    </main> -->
+
+    <header class="top_bar container-fluid">
+      <div class="top_bar_top justify-content-between align-items-center row">
+        <div class="header_left col">
+          <div class="row">
+            <div class="logo_small_wrapper d-sm-block d-md-none">
+              <img
+                class="header_logo_small"
+                src="images/Newsweek_Logo.svg.png"
+                alt=""
+              />
+            </div>
+
+            <a href="#" class="weather">
+              <div class="weather_container">
+                <i class="fas fa-sun"></i> 32°
+                <span class="d-none d-md-inline-block">Querétaro, MX</span>
+              </div>
+            </a>
+          </div>
+          <div class="date row d-none d-lg-inline-block">
+            Tue, Apr 07, 2020
+          </div>
+        </div>
+
+        <div class="header_logo_big d-md-block d-sm-none">
+          <img src="images/Newsweek_Logo.svg.png" alt="" />
+        </div>
+
+        <div class="header_right d-inline-block">
+          <a href="#" class="d-inline-block sign_in">SIGN IN</a>
+          <a href="#" class="subscribe d-inline-block"
+            >SUBSCRIBE <span class="right_arrow">›</span></a
+          >
+        </div>
+        <div class="menu_button_wrapper">
+          <a href="#" class="menu d-inline-block"
+            ><i class="fas fa-bars"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="row">
+      <div class="navbar_wrapper d-none d-med-block">
+        <a href="#" class="navbar_link">U.S.</a>
+        <a href="#" class="navbar_link">World</a>
+        <a href="#" class="navbar_link">Busiess</a>
+        <a href="#" class="navbar_link">Tech & Science</a>
+        <a href="#" class="navbar_link">Culture</a>
+        <a href="#" class="navbar_link">Newsgeek</a>
+        <a href="#" class="navbar_link">Sports</a>
+        <a href="#" class="navbar_link">Health</a>
+        <a href="#" class="navbar_link">The Debate</a>
+        <a href="#" class="navbar_link">Vantage</a>
+        <a href="#" class="navbar_link">Weather</a>
+        <div class="search_wrapper d-inline-block">
+          <input type="text" class="search" placeholder="Search" /><span
+            class="search_icon"
+            ><i class="fas fa-search"></i
+          ></span>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>

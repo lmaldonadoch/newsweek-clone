@@ -11,8 +11,20 @@ body {
   background: #f4f5f6;
 }
 
+header,
+nav {
+  font-weight: bold;
+}
+
+header {
+  background: #f72210;
+  height: 50px;
+  padding: 20px;
+}
+
 .main,
-.bottom_navbar,
+nav,
+nav a,
 .main a {
   background: #fff;
   color: #000;
@@ -22,12 +34,65 @@ a {
   text-decoration: none;
 }
 
-.top_navbar,
-.top_navbar a {
+header a {
   color: #fff;
 }
 
-h2,
+.header_logo_small {
+  width: 132px;
+  margin: -28px 15px 0 15px;
+}
+
+.header_logo_big {
+  width: 396px;
+}
+
+.header_right {
+  margin-top: -15px;
+  font-size: 18px;
+}
+
+.subscribe {
+  background: #fff;
+  color: #f72210;
+  word-spacing: 15px;
+  line-height: 18px;
+  padding: 0 10px;
+}
+
+.menu_button_wrapper {
+  margin: -15px 15px 0 15px;
+}
+
+.fa-bars {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+}
+
+.weather {
+  font-size: 15px;
+  margin: -10px 0 0 15px;
+}
+
+.date {
+  grid-area: left-bottom;
+  align-self: center;
+  font-size: 16px;
+  margin: -5px 0 0 14px;
+}
+
+.menu_button {
+  justify-self: flex-end;
+  align-self: flex-end;
+  float: right;
+}
+
+.right_arrow {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+/*h2,
 .signin_container,
 .social_title,
 .weather,
@@ -43,12 +108,12 @@ h2,
 }
 
 .col-big {
-  width: 71.83%;
+  width: 70.83%;
   padding: 0 15px;
 }
 
 .col-small {
-  width: 28.17%;
+  width: 27.17%;
   padding: 0 15px;
 }
 
@@ -63,33 +128,16 @@ h2,
   padding: 20px 10px 15px;
 }
 
-.right_arrow {
-  font-size: 25px;
-  font-weight: 100;
-}
 
-.weather {
-  grid-area: left-top;
-  align-self: start;
-  font-size: 15px;
-  margin: -10px 0 0 15px;
-}
 
-.date {
-  grid-area: left-bottom;
-  align-self: center;
-  font-size: 16px;
-  margin: -5px 0 0 14px;
-}
+
 
 .logo {
   grid-area: logo;
   justify-self: center;
 }
 
-.logo img {
-  width: 396px;
-}
+
 
 .signin_container {
   display: inline-flex;
@@ -210,4 +258,21 @@ input {
   font-family: "Lora", serif;
   font-size: 20px;
   line-height: 25px;
-}
+} */
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
