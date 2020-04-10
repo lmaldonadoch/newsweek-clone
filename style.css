@@ -92,6 +92,66 @@ header a {
   font-weight: 100;
 }
 
+.top_story {
+  background: rgba(23, 197, 52, 0.5);
+  height: 100px;
+  font-size: 50px;
+}
+
+.featured_stories {
+  background: rgba(197, 191, 23, 0.5);
+  height: 400px;
+  font-size: 50px;
+}
+
+.opinion {
+  background: rgba(23, 130, 197, 0.5);
+  height: 200px;
+  font-size: 50px;
+}
+
+.more_stories {
+  background: rgba(136, 23, 197, 0.5);
+  height: 150px;
+  font-size: 50px;
+}
+
+.social {
+  background: rgba(23, 130, 197, 0.5);
+  height: 150px;
+  font-size: 50px;
+}
+
+.latest_news {
+  background: rgba(212, 46, 163, 0.5);
+  height: 200px;
+  font-size: 50px;
+}
+
+.col-big {
+  width: 39.8%;
+  padding: 0 15px;
+}
+
+.news {
+  border: #000 2px solid;
+}
+
+.col-small {
+  width: 29.4%;
+  padding: 0 15px;
+}
+
+.col-big-md {
+  width: 55.5%;
+  padding: 0 15px;
+}
+
+.col-small-md {
+  width: 44.5%;
+  padding: 0 15px;
+}
+
 /*h2,
 .signin_container,
 .social_title,
@@ -105,16 +165,6 @@ header a {
   margin: -9px -16px;
   display: flex;
   flex-direction: column;
-}
-
-.col-big {
-  width: 70.83%;
-  padding: 0 15px;
-}
-
-.col-small {
-  width: 27.17%;
-  padding: 0 15px;
 }
 
 .top_navbar {

@@ -781,7 +781,7 @@
       <div class="top_bar_top justify-content-between align-items-center row">
         <div class="header_left col">
           <div class="row">
-            <div class="logo_small_wrapper d-sm-block d-md-none">
+            <div class="logo_small_wrapper d-sm-block d-lg-none">
               <img
                 class="header_logo_small"
                 src="images/Newsweek_Logo.svg.png"
@@ -792,7 +792,7 @@
             <a href="#" class="weather">
               <div class="weather_container">
                 <i class="fas fa-sun"></i> 32°
-                <span class="d-none d-md-inline-block">Querétaro, MX</span>
+                <span class="d-none d-sm-inline-block">Querétaro, MX ></span>
               </div>
             </a>
           </div>
@@ -801,7 +801,7 @@
           </div>
         </div>
 
-        <div class="header_logo_big d-md-block d-sm-none">
+        <div class="header_logo_big d-none d-lg-block">
           <img src="images/Newsweek_Logo.svg.png" alt="" />
         </div>
 
@@ -840,5 +840,62 @@
         </div>
       </div>
     </nav>
+
+    <div class="container-fluid">
+      <div class="row news">
+        <!-- small screen -->
+
+        <div class="col-12 sm_and_xs_screens d-md-none">
+          <div class="top_story order-md-2 col-md-6">top_story</div>
+          <div class="featured_stories order-md-1 col-md-6">
+            featured_stories
+          </div>
+          <div class="opinion order-md-5 col-lg-3">opinion</div>
+          <div class="more_stories order-md-4 col-md-6">more_stories</div>
+          <div class="social order-md-3 col-md-6">social</div>
+          <div class="latest_news order-md-6 col-lg-3">latest_news</div>
+        </div>
+
+        <!-- Medium Screen -->
+
+        <div class="col-small-md d-none d-md-block d-lg-none">
+          <div class="featured_stories">featured_stories</div>
+        </div>
+
+        <div class="col-big-md d-none d-md-block d-lg-none">
+          <div class="flex-column">
+            <div class="top_story">top_story</div>
+            <div class="social">social</div>
+            <div class="more_stories">more_stories</div>
+          </div>
+        </div>
+
+        <!-- Large Screen -->
+
+        <div class="col-small d-none d-lg-block">
+          <div class="featured_stories">featured_stories</div>
+        </div>
+
+        <div class="col-big d-none d-lg-block">
+          <div class="flex-column">
+            <div class="top_story">top_story</div>
+            <div class="social">social</div>
+            <div class="more_stories">more_stories</div>
+          </div>
+        </div>
+
+        <div class="col d-none d-lg-block">
+          <div class="opinion">opinion</div>
+          <div class="latest_news">latest_news</div>
+        </div>
+      </div>
+
+      <div class="row d-none d-md-block d-lg-none">
+        <div class="col-12">
+          <div class="opinion col">opinion</div>
+          <div class="latest_news col">latest_news</div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
