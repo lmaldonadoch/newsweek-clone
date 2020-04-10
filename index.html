@@ -779,7 +779,7 @@
 
     <header class="top_bar container-fluid">
       <div class="top_bar_top justify-content-between align-items-center row">
-        <div class="header_left col">
+        <div class="header_left col col-lg-3">
           <div class="row">
             <div class="logo_small_wrapper d-sm-block d-lg-none">
               <img
@@ -801,17 +801,25 @@
           </div>
         </div>
 
-        <div class="header_logo_big d-none d-lg-block">
-          <img src="images/Newsweek_Logo.svg.png" alt="" />
+        <div
+          class="logo_big_wrapper d-none d-lg-flex col-lg-6 justify-content-center"
+        >
+          <img
+            class="header_logo_big"
+            src="images/Newsweek_Logo.svg.png"
+            alt=""
+          />
         </div>
 
-        <div class="header_right d-inline-block">
-          <a href="#" class="d-inline-block sign_in">SIGN IN</a>
-          <a href="#" class="subscribe d-inline-block"
-            >SUBSCRIBE <span class="right_arrow">›</span></a
-          >
+        <div class="header_right d-inline-flex flex-nowrap col">
+          <div class="absolute">
+            <a href="#" class="d-inline-block sign_in">SIGN IN</a>
+            <a href="#" class="subscribe d-inline-block"
+              >SUBSCRIBE <span class="right_arrow">›</span></a
+            >
+          </div>
         </div>
-        <div class="menu_button_wrapper">
+        <div class="menu_button_wrapper d-lg-none">
           <a href="#" class="menu d-inline-block"
             ><i class="fas fa-bars"></i
           ></a>

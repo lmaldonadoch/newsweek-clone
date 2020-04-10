@@ -34,8 +34,14 @@ a {
   text-decoration: none;
 }
 
+header,
 header a {
   color: #fff;
+}
+
+.row {
+  max-width: 1310px;
+  margin: 0 auto;
 }
 
 .header_logo_small {
@@ -58,6 +64,10 @@ header a {
   word-spacing: 15px;
   line-height: 18px;
   padding: 0 10px;
+}
+
+.right_arrow {
+  font-size: 35px;
 }
 
 .menu_button_wrapper {
@@ -166,28 +176,6 @@ header a {
   display: flex;
   flex-direction: column;
 }
-
-.top_navbar {
-  margin: 0px auto;
-  width: 100%;
-  max-width: 1310px;
-  height: 95px;
-  display: grid;
-  grid-template-areas: "left-top logo right-top" "left-bottom logo right-bottom";
-  background: #f72210;
-  padding: 20px 10px 15px;
-}
-
-
-
-
-
-.logo {
-  grid-area: logo;
-  justify-self: center;
-}
-
-
 
 .signin_container {
   display: inline-flex;
@@ -326,3 +314,41 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
+@media (min-width: 992px) {
+  .top_bar {
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1310px;
+    height: 95px;
+    padding: 20px 10px 15px;
+  }
+
+  .weather {
+    line-height: 40px;
+  }
+
+  .weather_container {
+    margin-left: 18px;
+  }
+
+  .header_right {
+    padding: 45px 0 0 90px;
+    white-space: nowrap;
+    clear: both;
+    float: right;
+    justify-self: flex-end;
+    align-self: flex-end;
+  }
+
+  .absolute {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 15px;
+  }
+
+  .subscribe {
+    padding: 3px 10px;
+  }
+}
