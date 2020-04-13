@@ -32,14 +32,19 @@ nav,
   font-weight: bold;
 }
 
-header {
-  background: #f72210;
-  height: 50px;
-  padding: 20px;
+nav,
+nav a,
+.sign_up_2,
+.newsletter_container,
+footer,
+footer .row {
+  background: #fff;
 }
 
 nav,
-nav a {
+nav a,
+.sign_up_2,
+.newsletter_container {
   background: #fff;
   color: #000;
 }
@@ -67,37 +72,38 @@ h2 {
 
 .header_logo_small {
   width: 132px;
-  margin: -28px 15px 0 15px;
+  margin: -15px 15px 0 -20px;
 }
 
 .header_logo_big {
   width: 396px;
 }
 
+header {
+  background: #f72210;
+  height: 50px;
+  padding-top: 25px;
+}
+
 .header_right {
   margin-top: -15px;
   font-size: 18px;
+  padding-right: -20px;
 }
 
 .subscribe {
-  background: #fff;
   color: #f72210;
-  word-spacing: 15px;
-  line-height: 18px;
-  padding: 0 10px;
-}
-
-.right_arrow {
-  font-size: 35px;
+  background: #fff;
+  margin: 0 15px;
 }
 
 .menu_button_wrapper {
-  margin: -15px 15px 0 15px;
+  margin: -5px 15px 0 15px;
 }
 
 .fa-bars {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .weather {
@@ -109,12 +115,6 @@ h2 {
   align-self: center;
   font-size: 16px;
   margin: -5px 0 0 14px;
-}
-
-.menu_button {
-  justify-self: flex-end;
-  align-self: flex-end;
-  float: right;
 }
 
 .right_arrow {
@@ -272,7 +272,10 @@ article {
 .the_debate_article,
 .more_stories .social_title,
 .story,
-.editors_pick_header {
+.editors_pick_header,
+.separator,
+.sign_up_2,
+.social {
   border-bottom: solid 1px #d9d9d9;
 }
 
@@ -436,7 +439,8 @@ section {
   margin-top: 25px;
 }
 
-.in_the_magazine article {
+.in_the_magazine article,
+.editors_pick article {
   margin-bottom: 25px;
 }
 
@@ -469,6 +473,135 @@ section {
   width: fit-content;
   padding: 8px 15px 9px;
   font-size: 17px;
+}
+
+.separator {
+  height: 10px;
+}
+
+.section_title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.sections_all_featured_articles h5 {
+  font-size: 18px;
+}
+
+.story_last {
+  padding-bottom: 30px;
+}
+
+.sections_all_featured_articles .card-text {
+  margin-bottom: -50px;
+}
+
+.sign_up_2 {
+  padding: 0 -20px 20px;
+  margin-bottom: 20px;
+}
+
+.subscribe_text {
+  margin-top: 5px;
+}
+
+.sign_up_2_wrapper {
+  position: relative;
+  background: #f4f5f6;
+}
+
+.sign_up_2 .letter_logo {
+  margin-top: 20px;
+}
+
+.sign_up_2 img {
+  height: 227px;
+  width: 170px;
+}
+
+.sign_up_2 .image_2 {
+  position: relative;
+  margin-left: -100px;
+}
+
+.button_container {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.newsletter_container .image {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?)
+    center center no-repeat;
+  background-size: cover;
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+.newsletter_container .card {
+  border: solid 1px #e2e2e2;
+  padding-bottom: 30px;
+}
+
+.newsletter_container .card-text {
+  font-size: 15px;
+}
+
+.newsletter_container .button_container {
+  margin-top: 25px;
+}
+
+footer {
+  padding-bottom: 20px;
+}
+
+footer .row {
+  padding: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_top {
+  margin: 35px 0px 20px -15px;
+}
+
+footer .logo_container {
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+
+footer img {
+  width: 236px;
+  height: 36px;
+}
+
+footer .copyright {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.social {
+  padding-bottom: 10px;
+}
+
+footer i {
+  font-size: 23px;
+  padding-right: 12px;
+}
+
+.editions {
+  margin-top: -20px;
+  padding-top: 20px !important;
+}
+
+.editions_opening {
+  padding-right: 5px;
+}
+
+.country_editions,
+.website_link {
+  padding: 5px 5px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 /*h2,
@@ -532,13 +665,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
     float: right;
     justify-self: flex-end;
     align-self: flex-end;
-  }
-
-  .absolute {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-right: 15px;
   }
 
   .subscribe {
