@@ -1,8 +1,8 @@
 *,
 *::before,
 *::after {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -14,6 +14,10 @@ body,
   background: #f4f5f7;
 }
 
+a {
+  text-decoration: none;
+}
+
 .helvetica {
   font-family: Helvetica, sans-serif;
 }
@@ -21,6 +25,27 @@ body,
 .lora,
 .heroes_item .title {
   font-family: "Lora", serif;
+}
+
+.row,
+.navbar_wrapper {
+  max-width: 1310px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+nav,
+nav a,
+.sign_up_2,
+.newsletter_container,
+footer,
+footer .row {
+  background: #fff;
+}
+
+header,
+header a {
+  color: #fff;
 }
 
 header,
@@ -35,39 +60,14 @@ nav,
 nav,
 nav a,
 .sign_up_2,
-.newsletter_container,
-footer,
-footer .row {
-  background: #fff;
-}
-
-nav,
-nav a,
-.sign_up_2,
 .newsletter_container {
   background: #fff;
   color: #000;
 }
 
-a {
-  text-decoration: none;
-}
-
-header,
-header a {
-  color: #fff;
-}
-
 .social_title,
 h2 {
   font-weight: bold;
-}
-
-.row,
-.navbar_wrapper {
-  max-width: 1310px;
-  margin: 0 auto;
-  width: 100%;
 }
 
 .header_logo_small {
@@ -85,12 +85,15 @@ header {
   padding-top: 25px;
 }
 
-header *:hover {
-  text-decoration: none;
+.subscribe {
+  color: #f72210;
+  background: #fff;
+  margin: 0 15px;
 }
 
-header .subscribe:hover {
-  color: #f72210;
+.weather {
+  font-size: 15px;
+  margin: -10px 0 0 15px;
 }
 
 header .weather,
@@ -104,12 +107,6 @@ header .sign_in {
   padding-right: -20px;
 }
 
-.subscribe {
-  color: #f72210;
-  background: #fff;
-  margin: 0 15px;
-}
-
 .menu_button_wrapper {
   margin: -5px 15px 0 15px;
 }
@@ -117,11 +114,6 @@ header .sign_in {
 .fa-bars {
   color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
-}
-
-.weather {
-  font-size: 15px;
-  margin: -10px 0 0 15px;
 }
 
 .date {
@@ -192,8 +184,6 @@ input {
   white-space: nowrap;
 }
 
-/*Main body*/
-
 .social_title {
   width: 100%;
   font-size: 16px;
@@ -221,6 +211,7 @@ section {
   background: #fff;
   margin: 0 0 20px 0;
   padding: 20px 30px 30px;
+  border-bottom: solid 1px #e2e2e2;
 }
 
 h2,
@@ -248,12 +239,6 @@ article {
 
 .opinion .title {
   margin: 10px 0;
-}
-
-.opinion .title a:hover,
-.latest_news .title a:hover {
-  color: red;
-  text-decoration: none;
 }
 
 .opinion a,
@@ -292,6 +277,11 @@ article {
   border-bottom: solid 1px #d9d9d9;
 }
 
+footer img {
+  width: 236px;
+  height: 36px;
+}
+
 .the_debate_article .image,
 .image_small img {
   height: 95px;
@@ -304,6 +294,10 @@ article {
   border-top: solid 1px #d9d9d9;
   padding-top: 10px;
   font-size: 14px;
+}
+
+.heroes_item a {
+  color: #000;
 }
 
 .upper .author a,
@@ -356,6 +350,11 @@ article {
   color: #272727;
 }
 
+.card-text {
+  margin: 20px -20px 0 -20px;
+  line-height: 1.25rem;
+}
+
 .heroes_item .card-text {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -363,17 +362,9 @@ article {
   margin-bottom: 25px;
 }
 
-.heroes_item a {
-  color: #000;
-}
-
 .social article,
 .featured_stories article {
   margin-bottom: 10px;
-}
-
-section {
-  border-bottom: solid 1px #e2e2e2;
 }
 
 .card {
@@ -385,11 +376,6 @@ section {
   margin: -10px -20px 0 -20px;
 }
 
-.card-text {
-  margin: 20px -20px 0 -20px;
-  line-height: 1.25rem;
-}
-
 .card-body {
   margin-bottom: -40px;
 }
@@ -397,11 +383,6 @@ section {
 .link-underline {
   color: #000;
   font-size: 22px;
-}
-
-.link-underline:hover {
-  text-decoration: underline red;
-  color: #000;
 }
 
 .card-img-top {
@@ -415,16 +396,13 @@ section {
 .sign_up {
   background: #fff;
   height: 170px;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .letter_logo img {
   width: 29px;
   height: 28px;
   margin-right: 10px;
-}
-
-.sign_up {
-  border-bottom: 1px solid #e2e2e2;
 }
 
 .sign_up_wrapper {
@@ -574,17 +552,12 @@ footer .row {
 }
 
 .footer_top {
-  margin: 35px 0px 20px -15px;
+  margin: 35px 0 20px -15px;
 }
 
 footer .logo_container {
   padding-top: 25px;
   margin-bottom: 10px;
-}
-
-footer img {
-  width: 236px;
-  height: 36px;
 }
 
 footer .copyright {
@@ -633,3 +606,22 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
+header *:hover {
+  text-decoration: none;
+}
+
+header .subscribe:hover {
+  color: #f72210;
+}
+
+.link-underline:hover {
+  text-decoration: underline red;
+  color: #000;
+}
+
+.opinion .title a:hover,
+.latest_news .title a:hover {
+  color: red;
+  text-decoration: none;
+}
