@@ -725,6 +725,12 @@ header .subscribe:hover {
     font-size: 19px;
   }
 
+  .sign_up_text {
+    font-size: 24px;
+    margin-right: 20px;
+    line-height: 1.5rem;
+  }
+
   .in_the_magazine .sign_up_text,
   .editors_pick_header .sign_up_text {
     font-size: 19px;
@@ -739,12 +745,6 @@ header .subscribe:hover {
     height: 70px;
     font-size: 18px;
     padding: 15px;
-  }
-
-  .sign_up_text {
-    font-size: 24px;
-    margin-right: 20px;
-    line-height: 1.5rem;
   }
 
   .in_the_magazine .sign_up_text {
@@ -915,11 +915,12 @@ header .subscribe:hover {
 
   .all_features_articles_top .card-img-top {
     max-height: 193px;
-    }
+  }
 
   .subscribers_wrapper {
     margin-bottom: -30px;
     height: 463px;
+    border-bottom: solid 1px #d9d9d9;
   }
 
   .newsletter_container {
@@ -946,9 +947,5 @@ header .subscribe:hover {
   .newsletter .image {
     height: 356px;
     min-width: 175px;
-  }
-
-  .subscribers_wrapper {
-    border-bottom: solid 1px #d9d9d9;
   }
 }
