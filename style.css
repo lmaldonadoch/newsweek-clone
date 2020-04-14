@@ -85,6 +85,19 @@ header {
   padding-top: 25px;
 }
 
+header *:hover {
+  text-decoration: none;
+}
+
+header .subscribe:hover {
+  color: #f72210;
+}
+
+header .weather,
+header .sign_in {
+  color: #fff;
+}
+
 .header_right {
   margin-top: -15px;
   font-size: 18px;
@@ -448,8 +461,8 @@ section {
   padding: 5px 0;
 }
 
-.heather_container {
-  margin: -5px 0 10px;
+.heather_container_magazine {
+  margin: -15px 0 10px 0;
 }
 
 .card-body button {
@@ -467,7 +480,7 @@ section {
   margin-top: 20px;
 }
 
-.editors_pick .heather_container {
+.heather_container {
   background: rgba(255, 255, 255, 0.9);
   margin: -55px 0 25px -25px;
   width: fit-content;
@@ -604,26 +617,6 @@ footer i {
   line-height: 20px;
 }
 
-/*h2,
-
-.opinion img {
-  margin-right: 10px;
-}
-
-.opinion .author {
-  font-size: 14px;
-  color: #555;
-}
-
-.top_story {
-  margin-bottom: 20px;
-}
-
-.top_story a h2 {
-  font-size: 22px;
-}
-} */
-
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
@@ -640,34 +633,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-@media (min-width: 992px) {
-  .top_bar {
-    margin: 0px auto;
-    width: 100%;
-    max-width: 1310px;
-    height: 95px;
-    padding: 20px 10px 15px;
-  }
-
-  .weather {
-    line-height: 40px;
-  }
-
-  .weather_container {
-    margin-left: 18px;
-  }
-
-  .header_right {
-    padding: 45px 0 0 90px;
-    white-space: nowrap;
-    clear: both;
-    float: right;
-    justify-self: flex-end;
-    align-self: flex-end;
-  }
-
-  .subscribe {
-    padding: 3px 10px;
-  }
-}
