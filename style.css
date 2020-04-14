@@ -39,7 +39,8 @@ nav a,
 .sign_up_2,
 .newsletter_container,
 footer,
-footer .row {
+footer .row,
+.news {
   background: #fff;
 }
 
@@ -253,7 +254,8 @@ article {
 .editors_pick_header,
 .separator,
 .sign_up_2,
-.social {
+.social,
+.in_the_magazine_header {
   border-bottom: solid 1px #d9d9d9;
 }
 
@@ -719,6 +721,16 @@ header .subscribe:hover {
     padding-top: 25px;
   }
 
+  .in_the_magazine_header {
+    margin-bottom: 20px;
+    font-size: 19px;
+  }
+
+  .in_the_magazine .sign_up_text,
+  .editors_pick_header .sign_up_text{
+    font-size: 19px;
+  }
+
   .april_24_issue {
     padding-bottom: 20px;
   }
@@ -728,6 +740,10 @@ header .subscribe:hover {
     height: 70px;
     font-size: 18px;
     padding: 15px;
+  }
+
+  .in_the_magazine .sign_up_text {
+    margin-bottom: 10px;
   }
 
   .in_the_magazine .card {
@@ -757,6 +773,10 @@ header .subscribe:hover {
   .sections_all_featured_articles,
   .sections_all_featured_articles_2 {
     margin-top: 0 !important;
+  }
+
+  .sections_all_featured_articles_big .card-title{
+    font-size: 22px;
   }
 
   .story_last {
@@ -815,6 +835,10 @@ header .subscribe:hover {
     margin-top: -33px;
   }
 
+  .footer_top *{
+    margin-bottom: 0;
+  }
+
   footer .copyright{
     margin-top: 45px;
     padding-bottom: -25px;
@@ -865,5 +889,64 @@ header .subscribe:hover {
     width: 29.4%;
     margin: 0;
     padding: 0 -15px;
+  }
+
+  .image_headshot img{
+    width: 63px;
+    height: 63px;
+  }
+
+  .the_debate_article img{
+    height: 95px;
+    width: 95px;
+  }
+
+  .upper .image_headshot,
+  .lower .image_headshot{
+    top: 125px;
+  }
+
+  .more_stories{
+    height: 330px;
+  }
+
+  .all_features_articles_top .card-img-top {
+    max-height: 193px;
+    }
+
+    .subscribers_wrapper{
+      margin-bottom: -30px;
+      height: 463px;
+    }
+
+    .newsletter_container{
+      margin-top: -9px;
+      padding-top: 13px;
+      margin-bottom: 23px;
+    }
+
+    .newsletter_container .subscribe_text{
+      margin-top: 10px;
+    }
+
+    .newsletter,
+    .sign_up_2_wrapper {
+      height: 357px !important;
+    }
+
+    .sign_up_2,
+    .newsletter_container {
+      margin-bottom: 0;
+      border: none;
+    }
+
+    .newsletter .image{
+      height: 356px;
+      min-width: 175px;
+    }
+
+    .subscribers_wrapper{
+      border-bottom: solid 1px #d9d9d9;
+    }
   }
 }
