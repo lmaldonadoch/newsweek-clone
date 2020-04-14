@@ -48,6 +48,14 @@ header a {
   color: #fff;
 }
 
+nav,
+nav a,
+.sign_up_2,
+.newsletter_container {
+  background: #fff;
+  color: #000;
+}
+
 header,
 nav,
 .opinion a,
@@ -55,14 +63,6 @@ nav,
 .vs,
 .story a {
   font-weight: bold;
-}
-
-nav,
-nav a,
-.sign_up_2,
-.newsletter_container {
-  background: #fff;
-  color: #000;
 }
 
 .social_title,
@@ -393,10 +393,18 @@ footer img {
   margin-bottom: 20px;
 }
 
+.last_latest_news {
+  margin-bottom: -30px;
+}
+
 .sign_up {
   background: #fff;
-  height: 170px;
+  height: 180px;
   border-bottom: 1px solid #e2e2e2;
+}
+
+.letter_logo {
+  margin-top: -20px;
 }
 
 .letter_logo img {
@@ -408,6 +416,12 @@ footer img {
 .sign_up_wrapper {
   background: #f4f5f6;
   border: 1px solid #e2e2e2;
+  border-bottom: none;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 20px;
+  max-height: 160px;
+  min-height: 160px;
 }
 
 .sign_up_text {
@@ -417,7 +431,7 @@ footer img {
 }
 
 .sign_up_button {
-  margin: -10px 0 10px;
+  margin: 0 0 10px;
 }
 
 .update_text {
@@ -529,9 +543,18 @@ footer img {
   margin-bottom: 20px;
 }
 
+.newsletter_container {
+  padding: 10px;
+}
+
+.newsletter_container .subscribe_text {
+  margin-top: 10px;
+}
+
 .newsletter_container .card {
   border: solid 1px #e2e2e2;
   padding-bottom: 30px;
+  margin: 10px 0;
 }
 
 .newsletter_container .card-text {
