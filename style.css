@@ -857,6 +857,11 @@ header .subscribe:hover {
 @media (min-width: 992px) {
   header{
     height: 95px;
+    position: relative !important;
+  }
+
+  nav {
+    height: 60px;
   }
 
   .header_left{
@@ -948,5 +953,4 @@ header .subscribe:hover {
     .subscribers_wrapper{
       border-bottom: solid 1px #d9d9d9;
     }
-  }
 }
