@@ -518,8 +518,7 @@ footer img {
 }
 
 .newsletter_container .image {
-  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?)
-    center center no-repeat;
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?) center center no-repeat;
   background-size: cover;
   height: 160px;
   margin-bottom: 20px;
@@ -727,7 +726,7 @@ header .subscribe:hover {
   }
 
   .in_the_magazine .sign_up_text,
-  .editors_pick_header .sign_up_text{
+  .editors_pick_header .sign_up_text {
     font-size: 19px;
   }
 
@@ -740,6 +739,12 @@ header .subscribe:hover {
     height: 70px;
     font-size: 18px;
     padding: 15px;
+  }
+
+  .sign_up_text {
+    font-size: 24px;
+    margin-right: 20px;
+    line-height: 1.5rem;
   }
 
   .in_the_magazine .sign_up_text {
@@ -775,7 +780,7 @@ header .subscribe:hover {
     margin-top: 0 !important;
   }
 
-  .sections_all_featured_articles_big .card-title{
+  .sections_all_featured_articles_big .card-title {
     font-size: 22px;
   }
 
@@ -796,12 +801,6 @@ header .subscribe:hover {
     margin: 0 25px;
   }
 
-  .sign_up_text {
-    font-size: 24px;
-    margin-right: 20px;
-    line-height: 1.5rem;
-  }
-
   .paragraph_small {
     font-size: 15px;
   }
@@ -810,7 +809,7 @@ header .subscribe:hover {
     margin: auto 0;
   }
 
-  .newsletter_container{
+  .newsletter_container {
     margin-top: -22px;
   }
 
@@ -831,31 +830,30 @@ header .subscribe:hover {
     margin-left: -20px;
   }
 
-  footer{
+  footer {
     margin-top: -33px;
   }
 
-  .footer_top *{
+  .footer_top * {
     margin-bottom: 0;
   }
 
-  footer .copyright{
+  footer .copyright {
     margin-top: 45px;
     padding-bottom: -25px;
   }
 
-  footer .social{
+  footer .social {
     padding-top: -50px;
   }
 
-  .editions{
+  .editions {
     margin-top: -28px;
   }
-  
 }
 
 @media (min-width: 992px) {
-  header{
+  header {
     height: 95px;
     position: relative !important;
   }
@@ -864,23 +862,23 @@ header .subscribe:hover {
     height: 60px;
   }
 
-  .header_left{
+  .header_left {
     margin-left: -10px;
   }
 
-  .date{
+  .date {
     margin-top: 10px;
   }
 
-  .header_right{
+  .header_right {
     margin-bottom: -50px;
   }
 
-  .search_wrapper{
+  .search_wrapper {
     margin-right: 70px;
   }
 
-  .navbar_wrapper .nav_weather{
+  .navbar_wrapper .nav_weather {
     border-right: none;
   }
 
@@ -896,22 +894,22 @@ header .subscribe:hover {
     padding: 0 -15px;
   }
 
-  .image_headshot img{
+  .image_headshot img {
     width: 63px;
     height: 63px;
   }
 
-  .the_debate_article img{
+  .the_debate_article img {
     height: 95px;
     width: 95px;
   }
 
   .upper .image_headshot,
-  .lower .image_headshot{
+  .lower .image_headshot {
     top: 125px;
   }
 
-  .more_stories{
+  .more_stories {
     height: 330px;
   }
 
@@ -919,38 +917,38 @@ header .subscribe:hover {
     max-height: 193px;
     }
 
-    .subscribers_wrapper{
-      margin-bottom: -30px;
-      height: 463px;
-    }
+  .subscribers_wrapper {
+    margin-bottom: -30px;
+    height: 463px;
+  }
 
-    .newsletter_container{
-      margin-top: -9px;
-      padding-top: 13px;
-      margin-bottom: 23px;
-    }
+  .newsletter_container {
+    margin-top: -9px;
+    padding-top: 13px;
+    margin-bottom: 23px;
+  }
 
-    .newsletter_container .subscribe_text{
-      margin-top: 10px;
-    }
+  .newsletter_container .subscribe_text {
+    margin-top: 10px;
+  }
 
-    .newsletter,
-    .sign_up_2_wrapper {
-      height: 357px !important;
-    }
+  .newsletter,
+  .sign_up_2_wrapper {
+    height: 357px !important;
+  }
 
-    .sign_up_2,
-    .newsletter_container {
-      margin-bottom: 0;
-      border: none;
-    }
+  .sign_up_2,
+  .newsletter_container {
+    margin-bottom: 0;
+    border: none;
+  }
 
-    .newsletter .image{
-      height: 356px;
-      min-width: 175px;
-    }
+  .newsletter .image {
+    height: 356px;
+    min-width: 175px;
+  }
 
-    .subscribers_wrapper{
-      border-bottom: solid 1px #d9d9d9;
-    }
+  .subscribers_wrapper {
+    border-bottom: solid 1px #d9d9d9;
+  }
 }
