@@ -12,7 +12,7 @@ The original website includes some responsive elements that needed some Javascri
 
 ## Live version
 
-[Live Version](https://rawcdn.githack.com/lmaldonadoch/newsweek-clone/0ecf1a726f4b8934d396c85e27ffd5a147d680fb/index.html)
+[Live Version](https://rawcdn.githack.com/lmaldonadoch/newsweek-clone/edc4cf1ccb921633a122e0f38e81d2620ed18aec/index.html)
 
 ## Built With
 
