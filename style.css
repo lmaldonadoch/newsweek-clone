@@ -41,12 +41,15 @@ nav a,
 .newsletter_container,
 footer,
 footer .row,
-.news {
+.news,
+.add_container {
   background: #fff;
 }
 
 header,
-header a {
+header a,
+header .weather,
+header .sign_in {
   color: #fff;
 }
 
@@ -54,7 +57,6 @@ nav,
 nav a,
 .sign_up_2,
 .newsletter_container {
-  background: #fff;
   color: #000;
 }
 
@@ -96,11 +98,6 @@ header {
 .weather {
   font-size: 15px;
   margin: -10px 0 0 15px;
-}
-
-header .weather,
-header .sign_in {
-  color: #fff;
 }
 
 .header_right {
@@ -378,6 +375,10 @@ footer img {
 
 .last_latest_news {
   margin-bottom: -30px;
+}
+
+.add_container{
+  padding-top: 20px;
 }
 
 .sign_up {
