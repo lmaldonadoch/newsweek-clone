@@ -46,6 +46,11 @@ footer .row,
   background: #fff;
 }
 
+.weather {
+  font-size: 15px;
+  margin: -10px 0 0 15px;
+}
+
 header,
 header a,
 header .weather,
@@ -93,11 +98,7 @@ header {
   color: #f72210;
   background: #fff;
   margin: 0 10px;
-}
-
-.weather {
-  font-size: 15px;
-  margin: -10px 0 0 15px;
+  padding: 0 15px;
 }
 
 .header_right {
@@ -153,7 +154,7 @@ input {
 .navbar_wrapper {
   width: 100%;
   height: 55px;
-  border-bottom: solid 1px #f4f5f6;
+  border-bottom: solid 2px #f4f5f6;
   margin-bottom: 50px;
 }
 
@@ -377,7 +378,7 @@ footer img {
   margin-bottom: -30px;
 }
 
-.add_container{
+.add_container {
   padding-top: 20px;
 }
 
@@ -705,7 +706,7 @@ header .subscribe:hover {
 
   .more_stories {
     max-height: 546px;
-    overflow: scroll;
+    overflow: hidden;
   }
 
   .the_debate_article {
@@ -758,7 +759,7 @@ header .subscribe:hover {
   }
 
   .in_the_magazine .card-img-top {
-    height: 158px;
+    height: 258px;
   }
 
   .in_the_magazine .card-title {
@@ -865,6 +866,7 @@ header .subscribe:hover {
   }
 
   .header_left {
+    max-width: 200px;
     margin-left: -10px;
   }
 
@@ -949,5 +951,19 @@ header .subscribe:hover {
   .newsletter .image {
     height: 356px;
     min-width: 175px;
+  }
+
+  .footer_top{
+    position: relative;
+  }
+
+  footer .logo_container {
+    max-width: 249px;
+  }
+
+  footer .social {
+    position: absolute;
+    right: 20px;
+    top: 40px;
   }
 }
