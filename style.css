@@ -12,6 +12,8 @@ body,
 .see_all_features {
   font-family: "Roboto Condensed", sans-serif;
   background: #f4f5f7;
+  max-width: 1310px;
+  margin: 0 auto;
 }
 
 a {
